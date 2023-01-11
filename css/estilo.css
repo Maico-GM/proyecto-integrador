@@ -1,0 +1,134 @@
+/* Normalize */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; /* Elimina el subrayado */
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.encabezado{
+    background-color: #fd611a;
+}
+.barra{
+    display: flex;/* row */
+    justify-content: center; /* para centrar en row */
+    gap: 40px; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+.navegador{
+    background-color: #fd611a;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    gap: 80px;
+}
+
+/*@keyframes entradaIzquierda {
+    0%{
+        transform: translateX(-100);
+        scale: 0;
+    }
+    
+    100%{
+    transform: translateX(0);
+    scale: 1;
+    }
+} 
+
+.logoContenedor img {
+    animation-name: entradaIzquierda;
+    animation-duration: 2s;
+} CONSULTAR */
+
+a{
+    color: black;
+    text-decoration: none;
+
+}
+
+a:hover{
+    transition: all ease-in;
+    color: white;
+    
+}
+.busquedaContenedor{
+    position: relative;
+
+}
+
+.busquedaContenedor i {
+   position: absolute; 
+   top: 18px;
+   left: 350px;
+   color: rgb(71, 58, 58);
+   font-size: 1.2rem;
+}
+.buscador{
+    padding: 20px;
+    border-radius: 7px;
+    border:none;
+    border: 1px rgb(224,224,224) solid;
+    width: 400px;
+}
+
+.iniciarSesion button {
+    width: 184px;
+    height: 36px;
+    text-transform: uppercase;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0px 16px;
+    background: #fd611a;
+    border-radius: 3px;
+    border:none;
+    color: white
+    
+    
+     
+}
+
+.carta{
+    box-shadow: 0px 1px 5px 0px rgb(109, 109, 109); /*sombra*/
+    padding: 16px;
+    width: 290px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+    border-radius: 5px;
+}
+.carta img{
+    width: 106px 95px;
+}
+.carta h3{
+    font-size: 0.7rem;
+}
+.carta p{
+    color: #4675b9;
+}
+
+.cartaContenedor{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding-top: 15px;
+}
+.seccionProductos{
+    margin: 10vh 5vw;
+}
+.novedades{
+    padding-top: 5px;
+    border-bottom: black 2px solid;
+    margin-right: 60px;
+    margin-left: 90px;
+    margin-top: 30px;
+
+}
+
+
+
