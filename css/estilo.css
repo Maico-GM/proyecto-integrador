@@ -27,22 +27,26 @@
     gap: 80px;
 }
 
-/*@keyframes entradaIzquierda {
+@keyframes entradaIzquierda {
     0%{
-        transform: translateX(-100);
-        scale: 0;
+        transform: translateX(-1200px);
+        scale: 1;
     }
     
     100%{
-    transform: translateX(0);
+    transform: translateX(0px);
     scale: 1;
     }
 } 
 
+.entradaIzquierda{
+    animation: entradaIzquierda 1.5s;
+}
+
 .logoContenedor img {
     animation-name: entradaIzquierda;
     animation-duration: 2s;
-} CONSULTAR */
+} 
 
 a{
     color: black;
@@ -91,22 +95,23 @@ a:hover{
      
 }
 
+/*Cards*/
 .carta{
     box-shadow: 0px 1px 5px 0px rgb(109, 109, 109); /*sombra*/
     padding: 16px;
-    width: 290px;
-    height: 200px;
+    width: 290;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 200px;
+    margin-bottom: 1px;
     border-radius: 5px;
 }
 .carta img{
-    width: 106px 95px;
+    width: 120px;
 }
 .carta h3{
     font-size: 0.7rem;
+    text-align: center;
 }
 .carta p{
     color: #4675b9;
@@ -115,20 +120,184 @@ a:hover{
 .cartaContenedor{
     display: flex;
     justify-content: center;
-    gap: 60px;
+    gap: 40px;
     padding-top: 15px;
 }
 .seccionProductos{
     margin: 10vh 5vw;
 }
+
 .novedades{
     padding-top: 5px;
     border-bottom: black 2px solid;
     margin-right: 60px;
     margin-left: 90px;
     margin-top: 30px;
+    margin-bottom: 10px;
 
 }
+
+/*footer*/
+
+.pieDePagina{ 
+    background-color: #fd611a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: 400px;
+    height: 150px;
+    color: white;
+    
+
+}
+
+
+.cajaContenido{
+    padding-right: 50px;
+    text-align: right;
+}
+
+
+.cajaContenido img{
+    width: 60px;
+}
+
+
+.contenido2{
+    padding: 30px;
+    text-align: center;
+    border-left: solid 1px white; 
+
+}
+
+.contenido2 button{
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: #fd611a;
+    color: white;
+    margin-bottom: 5px;
+    
+}
+
+.contenido2 button:hover{
+    transition: all ease-in 0.3s;
+    background-color: white; 
+    color: #fd611a;
+
+}.contenido h4{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+
+
+.contenido p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: white;
+
+}
+
+.contenido3{
+    text-align: center;
+    padding: 30px;
+    border-left: 1px solid white;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    
+}
+
+.contenido3 button{
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 7px;
+    background-color: #fd611a;
+    color: white;
+    
+}
+
+.contenido3 button:hover{
+    transition: all ease-in 0.3s;
+    background-color: white; 
+    color: #fd611a;
+}
+
+.contenido h5{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+
+.contenido4{
+    padding: 40px;
+    text-align: center;
+    border-left: solid 1px white; 
+    font-size: 30px;
+
+}
+
+
+
+/*Derechos*/
+.derechos{
+    background-color:rgb(218, 214, 214);
+    height: 50px;
+}
+
+.infoDerechos{
+    color: rgb(139, 135, 135);
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 770px) {
+    .barra{
+        flex-direction: column;
+    }
+
+    .barraNavegacion{
+        justify-content: left;
+        min-height: 5vh;
+    }
+
+    a{
+        display: none;
+    }
+
+    .botonDeHamburguesa{
+        display: block;
+        color: #fff;
+        background-color: #fd611a;
+        border: none;
+        font-size: 35px;
+        padding: 10px;
+    }
+
+    .cartasContenedor{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .barra{
+        flex-direction: column;
+    }
+}
+
+
+
 
 
 
