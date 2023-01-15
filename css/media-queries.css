@@ -1,0 +1,42 @@
+@media screen and (max-width: 770px) {
+    .barra{
+        flex-direction: column;
+    }
+
+    .busquedaContenedor{
+        justify-content: left;
+        min-height: 5vh;
+    }
+
+    a{
+        display: none;
+    }
+
+    .botonHamburguesa{
+        display: block;
+        color: white;
+        background-color: #fd611a;
+        border: none;
+        font-size: 35px;
+        padding: 10px;
+        
+    }
+
+    .cartaContenedor{
+        flex-wrap: wrap;
+    }
+
+    .pieDePagina{
+        flex-direction: column;
+        text-align: center;
+
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    .barra{
+        flex-direction: column;
+    }
+}
+
+

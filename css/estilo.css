@@ -261,40 +261,13 @@ a:hover{
     padding-top: 5px;
 }
 
-/*Responsive*/
-@media screen and (max-width: 770px) {
-    .barra{
-        flex-direction: column;
-    }
 
-    .barraNavegacion{
-        justify-content: left;
-        min-height: 5vh;
-    }
-
-    a{
-        display: none;
-    }
-
-    .botonDeHamburguesa{
-        display: block;
-        color: #fff;
-        background-color: #fd611a;
-        border: none;
-        font-size: 35px;
-        padding: 10px;
-    }
-
-    .cartasContenedor{
-        flex-wrap: wrap;
-    }
+.botonHamburguesa{
+    display: none;
 }
 
-@media screen and (max-width: 1170px) {
-    .barra{
-        flex-direction: column;
-    }
-}
+
+
 
 
 
